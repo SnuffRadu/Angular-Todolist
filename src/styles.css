@@ -1,5 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
-/*@import '@angular/material/prebuilt-themes/deeppurple-amber.css';*/
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';*/
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+
+
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+  background-image: url('https://cutewallpaper.org/21/doom-slayer-wallpaper/7680-Doom-Slayer-Wallpapers-Top-Free-7680-Doom-Slayer-.jpg');
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+.container {
+  padding: 0 1rem;
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  background: #555;
+  color: #fff;
+  padding: 7px 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #666;
+}
