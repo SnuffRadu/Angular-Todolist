@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Todo } from 'C:\Users\Snuff Radu\Documents\angular-crash-todolist\src\app\models\Todo';
+import { Todo } from '../models/Todo';
 
 @Component({
   selector: 'app-components',
@@ -19,7 +19,17 @@ export class ComponentsComponent implements OnInit {
         id: 1,
         title: 'Todo one',
         completed:true
-      }
+      },
+      {
+        id: 2,
+        title: 'Todo two',
+        completed:true
+      },
+      {
+        id: 3,
+        title: 'Todo three',
+        completed:true
+      },
     ]
   }
 }
